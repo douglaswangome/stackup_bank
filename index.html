@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <div class="bank">
+      <div class="content">
+        <img src="./assets/main.png" alt="image" />
+        <div class="user">
+          <span class="title">Doug Bank</span>
+          <div class="balance">
+            <span>Your Balance:</span>
+            <span id="balance"></span>
+          </div>
+          <div class="result">
+            <input id="input" type="number" />
+            <span id="err" class="err"></span>
+          </div>
+          <select id="choice">
+            <option value="deposit">Deposit</option>
+            <option value="withdraw">Withdraw</option>
+            <option value="check">Check Balance</option>
+          </select>
+          <button id="button">
+            <span>Action</span>
+          </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
